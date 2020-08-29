@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
     throw new Error("Method not implemented.");
   }
   title = 'file-upload';
+  console.log("ankit");
   // images: any = [];
   // allfiles: any = []; p: number = 1;
 
