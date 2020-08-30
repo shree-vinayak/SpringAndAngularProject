@@ -1,0 +1,81 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}
+  </h1>
+</div>
+<h2>Click below link to get employee data</h2>
+<div>
+    <h3>
+		Using Link <br/>
+		<a href="#" (click)="download()">Download Employee Data</a>
+	</h3>
+	
+	<h3>Using Button</h3>
+	<input type="button" (click)="download()" value="Download Employee Data"/>
+</div>
+
+
+
+<!-- <button (click)="generatePdf()">Open PDF</button> -->
+<!-- <h1>HTML to PDF in Angular 9</h1>
+<button (click)="generatePDF()">Generate PDF</button>
+
+<table id="contentToConvert" border="1" width="100%">
+  <tbody>
+    <tr>
+      <th>ID</th>
+      <th>Article</th>
+      <th>Technology</th>
+      <th>Author</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Star Rating In Angular 9</td>
+      <td>Angular</td>
+      <td>Yasin</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>TypeAhead With Custom Result Template In Angular 9</td>
+      <td>Angular</td>
+      <td>Yasin</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Circular Progress Bar In Angular 9</td>
+      <td>Angular</td>
+      <td>Yasin</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Display Loader/Spinner On Each HTTP Calls In Angular 9</td>
+      <td>Angular</td>
+      <td>Yasin</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Form Validation In Angular 9</td>
+      <td>Angular</td>
+      <td>Yasin</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Building Responsive Carousel Slider In Angular 9</td>
+      <td>Angular</td>
+      <td>Yasin</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>How To Implement Lazy Loading Module In Angular 9</td>
+      <td>Angular</td>
+      <td>Yasin</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Separate Development And Production URL In Angular 9</td>
+      <td>Angular</td>
+      <td>Yasin</td>
+    </tr>
+  </tbody>
+</table> -->
+<router-outlet></router-outlet>
